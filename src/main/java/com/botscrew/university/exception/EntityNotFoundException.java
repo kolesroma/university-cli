@@ -1,8 +1,7 @@
 package com.botscrew.university.exception;
 
-import lombok.AllArgsConstructor;
+import lombok.experimental.StandardException;
 
-@AllArgsConstructor
+@StandardException
 public class EntityNotFoundException extends RuntimeException {
-    private final String message;
 }

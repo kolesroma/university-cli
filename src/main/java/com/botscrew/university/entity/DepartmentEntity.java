@@ -23,7 +23,7 @@ public class DepartmentEntity {
 
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
             name = "lector_department",
             joinColumns = @JoinColumn(name = "department_id"),
