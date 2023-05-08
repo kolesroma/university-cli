@@ -1,8 +1,9 @@
-package com.botscrew.university.service;
+package com.botscrew.university.service.impl;
 
 import com.botscrew.university.entity.LectorEntity;
 import com.botscrew.university.exception.ExceptionSupplier;
 import com.botscrew.university.repository.LectorRepository;
+import com.botscrew.university.service.LectorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

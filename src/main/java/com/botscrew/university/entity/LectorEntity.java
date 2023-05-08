@@ -25,6 +25,8 @@ public class LectorEntity {
     @JoinColumn(name = "degree_id")
     private DegreeEntity degree;
 
+    private Integer salary;
+
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     @ManyToMany(mappedBy = "lectorList")
